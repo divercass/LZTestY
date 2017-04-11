@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LZTestY (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LZTestY (from `../`)
+
+EXTERNAL SOURCES:
+  LZTestY:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  LZTestY: 0cf720b0ff2e7bcd1fbd8f214a9545b3ed434d8f
+
+PODFILE CHECKSUM: c5b07d978a89fe776b0494488b8af9b7f1dd9674
+
+COCOAPODS: 1.2.0

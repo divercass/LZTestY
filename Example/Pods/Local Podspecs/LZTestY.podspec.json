@@ -1,0 +1,22 @@
+{
+  "name": "LZTestY",
+  "version": "0.1.0",
+  "summary": "A short description of LZTestY.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/divercass/LZTestY",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "divercass": "1249954007@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/divercass/LZTestY.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LZTestY/Classes/**/*"
+}

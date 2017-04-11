@@ -37,13 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A6DC3030B93E089EE2EF0A /* LZTestY.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LZTestY.podspec; path = ../LZTestY.podspec; sourceTree = "<group>"; };
+		03A6DC3030B93E089EE2EF0A /* LZTestY.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LZTestY.podspec; path = ../LZTestY.podspec; sourceTree = "<group>"; };
 		0AFF07C841CF9322BE6AE7FB /* Pods-LZTestY_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZTestY_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZTestY_Tests/Pods-LZTestY_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		13CDC2748A5214977918E91F /* Pods-LZTestY_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZTestY_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZTestY_Tests/Pods-LZTestY_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		26AACBAA2906359DD572813E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		26AACBAA2906359DD572813E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2E03D41D37456D3FE2F69834 /* Pods_LZTestY_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZTestY_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1CC29BEC4453AA9EBDBB02 /* Pods-LZTestY_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZTestY_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZTestY_Example/Pods-LZTestY_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4A3F6405A709A9AE716B9772 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A3F6405A709A9AE716B9772 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LZTestY_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZTestY_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -251,6 +251,7 @@
 				ORGANIZATIONNAME = divercass;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0830;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -568,6 +569,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZTestY_Example.app/LZTestY_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -588,6 +590,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZTestY_Example.app/LZTestY_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
